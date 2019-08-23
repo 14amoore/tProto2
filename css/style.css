@@ -11,3 +11,9 @@ body {
 header {
   font-size: 19vmin;
 }
+
+#container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

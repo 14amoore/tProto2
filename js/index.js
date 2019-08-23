@@ -3,6 +3,8 @@ window.onload = function hiThere() {
   synth.triggerAttackRelease('C4', '128N');
 };
 
+document.querySelector('#play').addEventListener('click', () => Tone.start());
+
 function boop(event) {
   if (event.key === 'a') {
     synth.triggerAttackRelease('D4', '128N');
